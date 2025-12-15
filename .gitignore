@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+.env
+
+# --- VS Code (Configuraciones locales) ---
+.vscode/
+
+# --- Logs del sistema ---
+*.log
+
+# --- DATOS (Crítico para Portfolio) ---
+# Ignorar todos los archivos dentro de input y output...
+data/input/*
+data/output/*
+
+# ...EXCEPTO el archivo .gitkeep (para mantener la estructura de carpetas)
+!data/input/.gitkeep
+!data/output/.gitkeep
